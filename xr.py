@@ -34,8 +34,8 @@ def first_step():
     input("\n[↩] ENTER...")
 
 def check_key():
-    user_key = input("Chanu")
-    if user_key in approved_keys:
+    user_key = input("\n[?] Enter your pass: ")
+    if user_key in approved_keys = ["chanu"]
         print("\n[✓] approved✅...\n")
     else:
         print("\n[×] wrong pass❌")
